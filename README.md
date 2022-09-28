@@ -48,6 +48,11 @@ sudo dpkg -i *warp*.deb
 Add this PPA to satisfy dependencies, then you can follow steps above:
 <https://launchpad.net/~clementlefebvre/+archive/ubuntu/grpc?field.series_filter=bionic>
 
+#### Arch Linux:
+```
+sudo pacman -S warpinator
+```
+
 #### Otherwise (and this is valid anywhere if you want to avoid packaging):
 ```
 meson builddir --prefix=/usr  (This is typical - /usr/local is another common choice for non-package-manager installs).
